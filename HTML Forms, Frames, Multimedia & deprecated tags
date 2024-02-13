@@ -1,0 +1,58 @@
+code 1 :
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Registration Form</title>
+</head>
+<body>
+<h1>Registration form</h1>
+<form action="display.php" method="POST">
+    <label for="name">Name:</label><br>
+    <input type="text"  name="name" maxlength="100"><br>
+
+    <label for="username">Username:</label><br>
+    <input type="text" name="userName"><br>
+
+    <label for="password">Password:</label><br>
+    <input type="text" name="password"><br>
+
+    <label for="mobilenumber">Mobile Number:</label><br>
+    <input type="text"  name="mobilenumber" maxlength="10"><br>
+
+    <label for="address">Address:</label><br>
+    <textarea   type="text" name="address" maxlength="200"></textarea><br>
+
+    <input type="submit" value="register" name="register">
+</form>
+</body>
+</html>
+
+code 2:
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Event Search</title>
+</head>
+<body>
+<h1>Event Search</h1>
+<form>
+    <label for="someText">Search for an event:</label><br>
+    <input type="text" id="someText" name="someText" list="text"><br>
+
+    <datalist id="text">
+        <option value="Bridal party">
+        <option value="Engagement parties">
+        <option value="Caterer">
+        <option value="Wedding ceremony">
+        <option value="Wedding reception">
+    </datalist>
+
+    <input type="submit" name="search" value="Search">
+</form>
+</body>
+</html>
