@@ -1,0 +1,83 @@
+code 1:
+
+<!DOCTYPE html>
+<html>
+<head>
+     <style>
+        div{
+            border-style: solid;
+            border-width :1px;
+            border-color :black;
+            width: 50%;
+            background-color: hotpink;
+        }
+        .first{
+            padding: 5px 100px;
+            background-color: antiquewhite;
+        }
+        .second{
+            padding: 10px 50px;
+            background-color: aqua;
+        }
+        .third{
+            padding: 90px 30px;
+            background-color: cadetblue;
+        }
+
+
+         /*Enter your text here!*/
+    </style>
+</head>
+    <!--Enter your text here!-->
+    <body>
+        <h1>Event Schedule</h1>
+        <div>
+            <div class="first">
+                <h3>Corporate Events</h3>
+                <p>Event Management of team building events that develop and motivate teams in companies and corporations. Team building events are perfect for companies and their divisions to motivate their employees and to develop real teams.</p>
+            </div>
+        </div>
+        <div>
+            <div class="second">
+                <h3>Wedding Planning</h3>
+                <p>We provide Wedding Event Management Service as per requirements of customers. These services are rendered by professionals who have several years of work experience.</p>
+            </div>
+        </div>
+        <div>
+            <div class="third">
+                <h3>Award Ceremony</h3>
+                <p>Awards ceremonies are a celebration of talent, success and achievement. We've pulled together some of the things you need to consider when organising an awards ceremony.</p>
+            </div>
+        </div>
+    </body>
+ 
+</html>
+
+
+===============================================
+code 2:
+
+<!DOCTYPE html>
+<html>
+<head>
+
+</head>
+</head>
+<body>
+    <center>
+   <h2>EVENTS & PROMOTIONS</h2>
+   <p>Our company's core objective is, simply but, to be good. Built on the principles of transparency and accountability, we work dedicatedly on designing be spoke solutions that are creative, feasible, efficient, meticulously planned and successfully implemented. We offer a range of solutions from product launches, gala dinners & conferences to theme nights, fashion shows, hostesses & models. Our events team handles all your requirements from conceptualization to execution, leaving you free to focus completely on achieving your objectives. With proper planning and logistics management and the ability to activate requisite resources, we have undertaken a wide variety of projects. Our professional operations team will manage every aspect of your event, from invitations and RSVPs, branding, sound, light and technical solutions, to local and international entertainment and event staff. With dedicated suppliers in place we are able to handle any event requirement our clients may have. Our specialized promotions department specifically focuses on providing clients with promoters, hostesses and models for marketing campaigns, events, exhibitions and fashion shows. We provide complete services covering selection, casting, training, supervision and reporting. We intricately craft each and every proceedings of your wedding , be it a Christian nuptials or a Hindu vivaha or a Muslim nikkah. Our experts have hands on experience in bringing your dreams to life , right from wedding cards design till the return gifts to the guests. Wedding is your day to indulge in pure love and happiness..Don't make it the day for your peak of tensions and hassles. We, as the leading wedding planners in the town ,listen to and understand your budget and expectations on your princess's wedding.Your dream will be brought to reality with at most care under your own budget.And what else, free your mind from tensions..Just stretch out and watch your princess joining her hands with her prince, with a happy and tension free face.</p>
+        <h3>Contact Us..</h3>
+        <h3>Let's talk about your event plan..</h3>
+        <p><i class="fa fa-home">:0422-2727272</i>
+            <i class="fa fa-phone">:+91 9360001060 | +918608101110</i>
+            <i class="fa fa-envelope">  : info@purple7.in</i>
+            <i class="fa fa-address-book">: 196/4, Sathy Road,
+                above Union Bank,
+                Saravanampatti, Coimbatore,
+                Tamil Nadu - 641035
+                India</i>
+        </p>
+       </center>
+</body> 
+</html>
