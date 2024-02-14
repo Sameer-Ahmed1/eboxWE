@@ -1,0 +1,84 @@
+code 1:
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <style>
+        #container {
+            position: relative;
+        }
+        #overlay {
+           overflow:hidden;
+           transition:1s ease;
+           width:0px;
+           position:absolute;
+           height: 100%;
+        }
+        #text{
+            text-align:justify;
+            transform: translate(-270px,-100px);
+            position: absolute;
+        }
+        .image{
+            width:700px;
+        }
+        img:hover + #overlay{
+            width:100%;
+        }
+    </style>
+</head>
+<body>
+    <h2>Wedding Event</h2>
+    <div id="container">
+        <img src="image.jpg" alt="dsa" class="image" >
+        <div id="overlay">
+            <center>
+                <div id="text">
+                    A wedding is a ceremony where two people or a couple are united in marriage. Wedding traditions and customs vary greatly between cultures, ethnic groups, religions, countries, and social classes. Most wedding ceremonies involve an exchange of marriage vows by the couple, presentation of a gift (offering, ring(s), symbolic item, flowers, money), and a public proclamation of marriage by an authority figure or celebrant. Special wedding garments are often worn, and the ceremony is sometimes followed by a wedding reception. Music, poetry, prayers or readings from religious texts or literature are also commonly incorporated into the ceremony.
+                </div>
+            </center>
+        </div>
+    </div>
+</body>
+</html>
+
+
+----------------------------------------------------
+code 2:
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <style>
+        #title{
+            transform:rotate(-90deg);
+        }
+        .container>div{
+            display: flex;
+           justify-content: center;
+
+        }
+
+    </style>
+</head>
+<body>
+    <h2>EVENTS & PROMOTIONS</h2>
+    <div class="container">
+        <div>
+            <div id="title">Wedding Event</div>
+            <div class="divContent">We intricately craft each and every proceeding of your wedding, be it a Christian nuptials or a Hindu vivaha or a Muslim nikkah. Our experts have hands on experience in bringing your dreams to life, right from wedding cards design till the return gifts to the guests. Wedding is your day to indulge in pure love and happiness. Don't make it the day for your peak of tensions and hassles. We, as the leading wedding planners in the town, listen to and understand your budget and expectations for your princess's wedding.</div>
+        </div>
+        <div>
+            <div id="title">Corporate Event</div>
+            <div class="divContent">The first impression is the best impression, they say. We toil to bring that effect to your event among the public and to trend the industry. Be it corporate meetings, business seminars, award presentations or trade shows, we enrich it with fresh thinking, energetic personality and wealth of experience that we possess. You would experience the finest showcase of the event with us, to meet the needs of your esteemed clients.
+            </div>
+        </div>
+        <div>
+            <div id="title">Birthday Party</div>
+            <div class="divContent">Planning a birthday party? Whether a wild party with friends or a crazy party for the kids, Most importantly, Purple7 helps you gather that ever important catering services will be arranged as per your requirements and budget. Engage your guests in a variety of events. Host the party with a lively anchor. And we provide with many more options to make your birthday 'the talk of the town'.</div>
+        </div>
+    </div>
+</body>
+</html>
+
+
